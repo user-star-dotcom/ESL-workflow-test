@@ -11,7 +11,7 @@ int main() {
     Vector3 sub = vector_sub(a, b);
     printf("Subtraction: (%.1f, %.1f, %.1f)\n", sub.x, sub.y, sub.z);
 
-    float dot = vector_dot(v1, v2);
+    float dot = vector_dot(a, b);
     printf("Dot Product: %.1f\n", dot);
 
     Vector3 cross = vector_cross(a, b);
